@@ -88,10 +88,12 @@ header .toggle{
     border-left: 4px solid #fff;
     transform: rotate(135deg)translate(2px,2px);
 }
-.banner  .console p{
-    font-weight: 500;
+.banner  .console p span{
+    font-weight: 700;
     font-size: 1.2em;
-    letter-spacing: 1.2px;
+    font-family: system-ui;
+    line-height: 0.5px;
+    text-align: center;
 }
 .banner .present{
     padding: 10px;
