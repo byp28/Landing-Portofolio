@@ -207,8 +207,11 @@ header .toggle{
     cursor: pointer;
     width: 50px;
     height: 50px;
-    background-color: #000;
     border-radius: 50%;
+}
+.me .content .network a img{
+    width: 100%;
+    height: 100%;
 }
 .all-skills{
     display: flex;
@@ -226,8 +229,8 @@ header .toggle{
     gap: 40px;
 }
 .all-skills .skills .skill{
-    width: 200px;
-    height: 220px;
+    width: 210px;
+    height: 240px;
     border-radius: 20px;
     padding: 20px;
     display: flex;
@@ -239,10 +242,13 @@ header .toggle{
 .all-skills .skills .skill .logo{
     width: 100px;
     height: 100px;
-    background-color: #000;
+}
+.all-skills .skills .skill .logo img{
+    width: 100%;
+    height: 100%;
 }
 .all-skills .skills .skill:hover{
-    border: #000 solid 5px;
+    border: #000 solid 3px;
     transition-duration: 0.2s;
 }
 .all-skills .skills .skill .level{
